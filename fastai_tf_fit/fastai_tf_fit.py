@@ -3,7 +3,7 @@ from fastai.basics import *
 
 defaults.device = torch.device('cpu')
 
-tf.enable_eager_execution()
+#tf.enable_eager_execution()
 tf.keras.backend.set_image_data_format('channels_first')
 
 __all__ = ['TfLearner', 'tf_fit', 'tf_loss_batch', 'tf_train_epoch', 'tf_validate', 'tf_get_preds', 'TfOptimWrapper', 'TfRegularizer', 'tf', 'tf_lr_find', 'TfLRFinder']
