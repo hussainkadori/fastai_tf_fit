@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords = 'fastai, deep learning, machine learning, pytorch, keras, tensorflow',
-    url="https://github.com/fastai/tf-fit",
+    url="https://github.com/hussainkaddori/tf-fit",
     packages=setuptools.find_packages(),
     install_requires=['fastai==1.0.39', 'tensorflow'],
     python_requires  = '==3.6.*',
