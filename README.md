@@ -1,9 +1,10 @@
 # fastai-tf-fit
 Fit your Tensorflow model using fastai and PyTorch
+Updated to work with Tensorflow 2
 
 ## Installation
 ```bash
-pip install git+https://github.com/fastai/tf-fit.git
+pip install git+https://github.com/hussainkadori/fastai_tf_fit.git
 ```
 
 ## Features
